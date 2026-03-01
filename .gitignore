@@ -1,0 +1,135 @@
+# ==================== NODE.JS / ANGULAR ====================
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+out/
+build/
+
+# ==================== JAVA / SPRING BOOT ====================
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
+.classpath
+.factorypath
+.project
+.settings/
+bin/
+out/
+*.log
+
+# ==================== IDE & EDITOR ====================
+.idea/
+.vscode/
+.vs/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.editor-config
+.project
+.c9/
+*.js.map
+*.css.map
+
+# ==================== ANGULAR SPECIFIC ====================
+client/.angular/
+client/.browserslistrc
+client/dist/
+client/out-tsc/
+client/coverage/
+client/testem.log
+
+# ==================== ENVIRONMENT FILES ====================
+.env
+.env.local
+.env.*.local
+.env.production.local
+server/src/main/resources/application-local.yml
+server/src/main/resources/application-dev.yml
+
+# ==================== DATABASE ====================
+*.db
+*.sqlite
+*.sqlite3
+postgres/
+pgdata/
+
+# ==================== MAVEN ====================
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ==================== GRADLE (if used) ====================
+.gradle/
+build/
+gradle/
+
+# ==================== OS FILES ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# ==================== TEMPORARY FILES ====================
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ==================== SYSTEM FILES ====================
+.vscode-server/
+.vscode-server-insiders/
+
+# ==================== DOCKER ====================
+docker-compose.override.yml
+.dockerignore
+
+# ==================== LOGS ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== INTELLIJ ====================
+.idea/
+*.iml
+*.iws
+*.ipr
+*.jks
+
+# ==================== VSCODE ====================
+.vscode-settings.json
+.vscode-launch.json
+.vscode-extensions.json
+
+# ==================== GIT ====================
+.git/
+.gitignore_backup
+
+# ==================== NPM ====================
+.npm
+.npmrc
+
+# ==================== ANGULAR TESTING ====================
+karma.conf.js
+test-results/
+
+# ==================== MISC ====================
+.DS_Store
+*.pem
+*.key
+*.crt
+.history/
+*.stackdump
